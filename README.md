@@ -18,4 +18,21 @@
 - Armo barra de navegación
 - Agrego íconos
 - Hago columna navegación con alto 100%
+- Uso flexbox para llevar ultimos elementos abajo
+
+- Uso extension de Chrome Pixel Perfect para detalles de fonts, paddings, etc y ajusto detalles.
+
+# Paso a Mobile
+- Escondo elementos que no deben estar visibles
+- Ajusto navbar y navegación
+- Agrego icono de menú
+- Genero estilos para un menu oculto
+- Ajusto margenes y paddings
+- Genero clase y toggle con jQuery para mostrar menu de cerrar sesión
+
+# Testeo
+- Pruebo en Diferentes breakpoints de Chrome
+- Pruebo en Edge y IE11
+
+Commit final
 
