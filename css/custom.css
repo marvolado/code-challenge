@@ -1,0 +1,160 @@
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+/* Font styles variations */
+.bold {
+    font-weight: 700!important;
+}
+.nav .nav-item .nav-link.active,
+.blue {
+    color: #1D2777;
+    font-weight: 700;
+}
+/**/
+html {
+    height: 92%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #EEEEF0;
+    height: 100%;
+}
+.container-fluid {
+    padding: 0 20px;
+}
+.container-fluid .row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.navbar {
+    border-bottom: 1px solid #E9E9E9;
+    padding: 0.5rem 0;
+}
+.navbar .btn {
+    border-radius: 15px;
+    padding: 0 0.7rem;
+}
+.navbar .dropdown-toggle::after {
+    display: none;
+    margin-left: 20px;
+}
+.navbar .fa-chevron-down {
+    margin-left: 20px;
+}
+
+.navbar .user {
+    font-weight: 700;
+    color: #76797B;
+    margin-left: 20px;
+} 
+.navbar .user em {
+    color: #EB1A2D;
+    font-style: normal;
+}
+.navbar .user span {
+    border: 1px solid #CECECE;
+    font-style: normal;
+    background-color: #EEEEF0;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.nav {
+    padding: 0;
+    background: #fff;
+    flex-direction: column;
+}
+.nav .nav-item.spacer { 
+    flex: 2;
+}
+.nav .nav-item .nav-link { 
+    padding: 1rem 2rem 1rem 1rem;
+    font-weight: 500;
+    color: #76797B;
+    border-bottom: 1px solid #E9E9E9;
+}
+.nav .nav-item .nav-link.active {
+    background-color: #EEEEF0;
+    font-weight: 700;
+}
+
+.main {
+    padding: 20px 0 0 40px;
+}
+.main h5 {
+    margin-bottom: 1rem;
+}
+.card, .card-header, .dropdown-menu {
+    border-color: #E9E9E9;
+    background: #fff;
+}
+.card .card-header {
+    padding: .4rem 1rem;
+}
+.card .card-title {
+    margin-bottom: 0;
+}
+.card .card-body {
+    padding: 1.25rem 1rem;
+}
+.card.factura .card-body {
+    padding: 0.4rem 1rem;
+}
+.card.factura .card-body p {
+    margin-bottom: 0;
+}
+.card .card-text.orange-sm {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+    color: orangered;
+}
+.card .card-text {
+    color: #76797B;
+}
+.alert h5, .alert h5 {
+    color: #76797B;
+}
+.main .card, .main .alert {
+    margin-left: 45px;
+}
+.main .card::before, .main .alert::before {
+    font-family: "FontAwesome";
+    font-size: 1.5rem;
+    position: absolute;
+    left: -38px;
+    top: 0;
+}
+.main .card::after {
+    position: absolute;
+    width: 5px;
+    content: "";
+    height: 92%;
+    left: -26px;
+    top: 32px;
+    border-left: 2px dashed #ccc;
+}
+.main .importe::before {
+    content: "\f058";
+    color: #51C881;
+}
+.main .factura::before {
+    color: #FF713E;
+    content: "\f071";
+}
+.main .alert::before {
+    content: "\f140";
+    color: #777;
+}
+@media (max-width:641px) {
+    .main {
+        padding: 0 15px;
+    }
+    .nav {
+        flex-direction: row;
+        height: auto!important;
+    }
+    .nav .spacer, .navbar-brand {
+        display: none;
+    }
+}
