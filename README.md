@@ -1,6 +1,6 @@
-# flux-challenge
+# code-challenge
 - Descargo assets
-- Creo la carpeta local Flux
+- Creo la carpeta local
 - Compruebo si tengo git instalado, no esta, paso a instalar. Tambien instalo GitHub Desktop.
 - Creo el repositorio en git, hago clone.
 
